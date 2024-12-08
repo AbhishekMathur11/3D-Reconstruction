@@ -1,4 +1,4 @@
-# 3D-Reconstruction
+# 3D-Reconstruction using Stereo Images
 
 ## Project Overview
 This project implements a 3D reconstruction pipeline using stereo vision techniques. It covers fundamental concepts in computer vision, including epipolar geometry, camera calibration, and triangulation.
