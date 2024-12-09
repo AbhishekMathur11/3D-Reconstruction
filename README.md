@@ -2,6 +2,26 @@
 
 ## Project Overview
 This project implements a 3D reconstruction pipeline using stereo vision techniques. It covers fundamental concepts in computer vision, including epipolar geometry, camera calibration, and triangulation.
+## Implementation
+
+The epipolar correspondences are generated as follows: 
+
+![Example Image](images/statue.png )
+
+Eventually this can be reconstructed as: 
+
+![Example Image](images/statue3d.png) ![Example Image](images/statue3d2.png)
+
+For a robot that tracks multiple views, the reconstruction can start as this:
+
+![Example Image](images/car1.png) ![Example Image](images/carrec1.png)
+
+Eventually after combined iterations:
+
+
+![Example Image](images/carn.png) ![Example Image](images/carrecn.png)
+
+
 
 ## Key Features
 - **Fundamental Matrix Estimation**: Implements the 8-point algorithm to compute the fundamental matrix from corresponding points in two images.
